@@ -8,7 +8,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'hall',
     pathMatch: 'full'
   },
   {
@@ -18,13 +18,18 @@ const routes: Routes = [
   {
     path: 'training',
     loadChildren: () => import('./page/training/training.module').then( m => m.TrainingPageModule)
-  },  {
+  },
+  {
     path: 'sign-up',
     loadChildren: () => import('./page/sessions/sign-up/sign-up.module').then( m => m.SignUpPageModule)
   },
   {
     path: 'sign-in',
     loadChildren: () => import('./page/sessions/sign-in/sign-in.module').then( m => m.SignInPageModule)
+  },
+  {
+    path: 'hall',
+    loadChildren: () => import('./page/hall/hall.module').then( m => m.HallPageModule)
   },
 
 ];

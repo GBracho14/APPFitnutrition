@@ -13,7 +13,7 @@ export class SignInPage implements OnInit {
   constructor(public fb: FormBuilder) { 
     this.formularioSignIn = this.fb.group({
       'email': new FormControl("", Validators.required),
-      'senha': new FormControl("", Validators.required)
+      'contraseña': new FormControl("", Validators.required)
     });
   }
 
