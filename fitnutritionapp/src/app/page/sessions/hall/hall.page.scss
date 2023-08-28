@@ -1,0 +1,41 @@
+ion-title{
+    text-align: center;
+    color: aliceblue;
+}
+
+ion-toolbar{
+    --ion-background-color: black;
+}
+
+ion-content{
+    --ion-background-color: #8fbbaf;
+}
+
+ion-button{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 60px;
+    margin: auto;
+    border-radius: 10%;
+}
+
+ion-button:hover{
+    background-color: white;
+    color: black;
+}
+
+.button-container{
+    width: 100%;
+}   
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height: 200px;
+    width: 300px;
+}
+
+
+

@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { HallPageRoutingModule } from './hall-routing.module';
 
 import { HallPage } from './hall.page';
+import { shareModule } from 'src/app/share/share.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HallPageRoutingModule
+    HallPageRoutingModule,
+    shareModule
   ],
   declarations: [HallPage]
 })

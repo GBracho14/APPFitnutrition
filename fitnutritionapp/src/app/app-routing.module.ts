@@ -29,7 +29,7 @@ const routes: Routes = [
   },
   {
     path: 'hall',
-    loadChildren: () => import('./page/hall/hall.module').then( m => m.HallPageModule)
+    loadChildren: () => import('./page/sessions/hall/hall.module').then( m => m.HallPageModule)
   },
 
 ];
