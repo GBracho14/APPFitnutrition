@@ -2,7 +2,7 @@
 
 /* Estilo para el contenido general */
 ion-content {
-  --ion-background-color: #2d2d2d;
+  --ion-background-color: #8fbbaf;
 }
 
 /* LOGO COLOR FIT*/
@@ -89,8 +89,11 @@ ion-toolbar {
 /* LOGOTIPO */
 
 .logo-container {
-  text-align: center;
-  margin: 50px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  height: 200px;
+  width: 300px;
 }
 
 .logo-text {

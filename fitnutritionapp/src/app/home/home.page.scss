@@ -88,8 +88,11 @@ ion-toolbar {
 /* LOGOTIPO */
 
 .logo-container {
-  text-align: center;
-  margin: 50px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  height: 200px;
+  width: 300px;
 }
 
 .logo-text {
@@ -102,4 +105,8 @@ ion-toolbar {
 .logo-subtext {
   font-size: 18px;
   color: #666666;
+}
+
+.principal-cards{
+  width: 130px;
 }

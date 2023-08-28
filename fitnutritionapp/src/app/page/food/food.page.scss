@@ -79,8 +79,11 @@ ion-content {
   /* LOGOTIPO */
   
   .logo-container {
-    text-align: center;
-    margin: 50px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height: 200px;
+    width: 300px;
   }
   
   .logo-text {
@@ -103,3 +106,13 @@ ion-content {
 .logo-highlight2 {
   color: #d7d119; /* Cambia el color según tu preferencia */
 }
+
+.principal-cards{
+  width: 130px;
+}
+
+ion-title{
+  text-align: center;
+  color: #ffffff;
+}
+

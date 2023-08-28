@@ -1,15 +1,7 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Home
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content class="ion-padding">
 
   <div class="logo-container">
-    <div class="logo-text"><span class="logo-highlight">Fit</span>Nutrition <span class="logo-highlight2">APP</span></div>
+    <app-logo></app-logo>
   </div>
 
   <!-- Primera columna con perfil -->
@@ -41,7 +33,7 @@
     <ion-row>
       <!-- Columna 1 - Comida -->
       <ion-col size="6">
-        <ion-card>
+        <ion-card class="principal-cards">
           <ion-card-content (click)="gotoFOOD()">
             <ion-icon name="fast-food-outline"></ion-icon>
             <p>Comida</p>
@@ -51,7 +43,7 @@
 
       <!-- Columna 2 - Training -->
       <ion-col size="6">
-        <ion-card>
+        <ion-card class="principal-cards">
           <ion-card-content (click)="gotoTRAINING()">
             <ion-icon name="fitness-outline"></ion-icon>
             <p>Training</p>

@@ -18,7 +18,15 @@ const routes: Routes = [
   {
     path: 'training',
     loadChildren: () => import('./page/training/training.module').then( m => m.TrainingPageModule)
+  },  {
+    path: 'sign-up',
+    loadChildren: () => import('./page/sessions/sign-up/sign-up.module').then( m => m.SignUpPageModule)
   },
+  {
+    path: 'sign-in',
+    loadChildren: () => import('./page/sessions/sign-in/sign-in.module').then( m => m.SignInPageModule)
+  },
+
 ];
 
 @NgModule({

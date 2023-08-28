@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import {TabsComponent} from '../share/componentes/tabs/tabs.component';
+import { LogoComponent } from './componentes/logo/logo.component';
 
 
 
@@ -14,9 +15,9 @@ import {TabsComponent} from '../share/componentes/tabs/tabs.component';
     FormsModule,
     IonicModule,
   ],
-  declarations: [TabsComponent],
+  declarations: [TabsComponent, LogoComponent],
   exports: [
-    TabsComponent,
+    TabsComponent, LogoComponent
   ],
 })
 export class shareModule {}
